@@ -14,4 +14,33 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EducationManagementSolution.Domain\EducationManagementSolution.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="AllOperations\ClassLists\ClassListCommand\" />
+    <Folder Include="AllOperations\ClassLists\ClassListCommandHandler\" />
+    <Folder Include="AllOperations\ClassLists\ClassListQueries\" />
+    <Folder Include="AllOperations\Departments\DepartmentCommand\" />
+    <Folder Include="AllOperations\Departments\DepartmentCommandHandler\" />
+    <Folder Include="AllOperations\Departments\DepartmentQueries\" />
+    <Folder Include="AllOperations\Designations\DesignationCommand\" />
+    <Folder Include="AllOperations\Designations\DesignationCommandHandler\" />
+    <Folder Include="AllOperations\Designations\DesignationQueries\" />
+    <Folder Include="AllOperations\EducationLevels\EducationLevelCommand\" />
+    <Folder Include="AllOperations\EducationLevels\EducationLevelCommandHandler\" />
+    <Folder Include="AllOperations\EducationLevels\EducationLevelQueries\" />
+    <Folder Include="AllOperations\AcademicQualifications\" />
+    <Folder Include="AllOperations\Employees\EmployeeCommand\" />
+    <Folder Include="AllOperations\Employees\EmployeeCommandHandler\" />
+    <Folder Include="AllOperations\Employees\EmployeeQueries\" />
+    <Folder Include="AllOperations\Students\StudentQueries\" />
+    <Folder Include="AllOperations\Students\StudentCommandHandler\" />
+    <Folder Include="AllOperations\Students\StudentCommand\" />
+    <Folder Include="AllOperations\Subjects\SubjectQueries\" />
+    <Folder Include="AllOperations\Subjects\SubjectCommandHandler\" />
+    <Folder Include="AllOperations\Subjects\SubjectCommand\" />
+  </ItemGroup>
+
 </Project>

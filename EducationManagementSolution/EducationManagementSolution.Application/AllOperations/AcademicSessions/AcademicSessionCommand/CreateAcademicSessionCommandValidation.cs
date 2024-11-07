@@ -1,0 +1,5 @@
+﻿namespace EducationManagementSolution.Application.AllOperations.AcademicSessions.AcademicSessionCommand;
+
+public class CreateAcademicSessionCommandValidation
+{
+}

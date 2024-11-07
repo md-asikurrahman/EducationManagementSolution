@@ -1,6 +1,8 @@
-﻿namespace EducationManagementSolution.Domain.Entities;
+﻿using EducationManagementSolution.Domain.Common;
 
-public class Student
+namespace EducationManagementSolution.Domain.Entities;
+
+public class Student : BaseEntity
 {
     public string Name { get; set; }
     public string FatherName { get; set; }

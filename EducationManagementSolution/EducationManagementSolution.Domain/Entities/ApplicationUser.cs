@@ -9,4 +9,5 @@ public class ApplicationUser : IdentityUser
     public string MobileNo { get; set; }
     public DateTime UpdatedAt { get; set; }
     public string UpdatedBy { get; set; }
+
 }
