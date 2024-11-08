@@ -1,4 +1,4 @@
-﻿namespace EducationManagementSolution.Domain.Interfaces;
+﻿namespace EducationManagementSolution.Application.Interfaces;
 
 public interface IBaseEntity<TKey>
 {
