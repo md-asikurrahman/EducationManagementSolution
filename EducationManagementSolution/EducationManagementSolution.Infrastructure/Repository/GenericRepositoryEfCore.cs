@@ -1,5 +1,5 @@
-﻿using EducationManagementSolution.Application.Interfaces;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using EducationManagementSolution.Application.Interfaces;
 
 namespace EducationManagementSolution.Infrastructure.Repository;
 

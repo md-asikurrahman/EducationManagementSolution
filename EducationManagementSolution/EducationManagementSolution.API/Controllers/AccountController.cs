@@ -15,7 +15,7 @@ public class AccountController : BaseController
     }
 
     [HttpPost]
-	public async Task<IActionResult> LogIn([FromBody] LogInModel model)
+	public async Task<IActionResult> LogIn([FromQuery] LogInModel model)
 	{
 		try
 		{
@@ -25,7 +25,7 @@ public class AccountController : BaseController
 		catch (Exception ex)
 		{
 
-			throw;
+			throw ;
 		}
 		
 	}

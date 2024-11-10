@@ -1,6 +1,5 @@
-﻿namespace EducationManagementSolution.API.Models.AccountModel
+﻿namespace EducationManagementSolution.API.Models.AccountModel;
+
+public class ChangePasswordModel
 {
-	public class ChangePasswordModel
-	{
-	}
 }
